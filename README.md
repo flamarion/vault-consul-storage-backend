@@ -267,6 +267,7 @@ $ vault read consul/creds/consul-server-role --format="json" | jq .data.token
 To stop all containers and clean up your environment, run the following commands
 
 `docker-compose down --rmi all --remove-orphans` (it will remove all the conigurations including images and networks, be careful)
+
 `docker system prune` (It will remove anything unused, be careful)
 
 ## References
